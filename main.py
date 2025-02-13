@@ -1,6 +1,8 @@
 import pandas as pd
 
-games_df = pd.read_csv('steam_games_db')
-prices_df = pd.read_csv('prices.csv')
+steam_games = pd.read_csv('steam_games.csv')
+steam_prices = pd.read_csv('steam_prices.csv')
 
-merged_df = pd.merge(steam_games_db, steam_prices_df, on='name_of_game', how='inner')
+merged_df = pd.merge(steam_games, steam_prices, on='Title', how='inner')  # inner join, чтобы оставить только совпадающие игры
+
+print(merged_df[['Title','genres','Original Price']])
