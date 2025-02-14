@@ -16,10 +16,11 @@ def main():
                 if genre in ast.literal_eval(row['genres']):
                     genre_counts[genre]['count'] += 1
                     genre_counts[genre]['price'] += row['price(USD)']
+
     for genre, data in genre_counts.items():
-        print(f"Количество игр в жанре {genre}: {data['count']}")
+        print(f"Количество игр в жанре {genre}: {data['count'] + 1}")
         print(f"Общая стоимость игр в жанре {genre}: {round(data['price'], 2)}$")
-        print("-" * 30)
+        print("-" * 50)
 
 if __name__ == "__main__":
     main()

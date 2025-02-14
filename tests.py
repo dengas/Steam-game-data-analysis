@@ -10,20 +10,25 @@ import ast
 
 
 # Получение уникальных жанров
-steam_games_df = pd.read_csv('data_frames/steam_games_df.csv')
+# steam_games_df = pd.read_csv('data_frames/steam_games_df.csv')
 
-genres_set = set()
+# genres_set = set()
 
-for index, row in steam_games_df.iterrows():
-    genres_list = ast.literal_eval(row['genres'])
-    # print(genres_list)
-    # print(type(genres_list))
-    for genres in genres_list:
-        genres_set.add(genres)
+# for index, row in steam_games_df.iterrows():
+#     genres_list = ast.literal_eval(row['genres'])
+#     # print(genres_list)
+#     # print(type(genres_list))
+#     for genres in genres_list:
+#         genres_set.add(genres)
 
-all_genres_list = list(genres_set)
+# all_genres_list = list(genres_set)
 
-print(all_genres_list)
+# print(all_genres_list)
 
 
 # ['Racing', 'Indie', 'Massively Multiplayer', 'Photo Editing', 'Action', 'Movie', 'Casual', 'Free To Play', 'Web Publishing', 'Design & Illustration', 'Utilities', 'Documentary', 'Audio Production', 'Software Training', 'Early Access', 'Simulation', 'Short', 'Tutorial', 'Gore', '360 Video', 'Game Development', 'Sexual Content', 'Episodic', 'Adventure', 'Education', 'Animation & Modeling', 'Accounting', 'Sports', 'Violent', 'Nudity', 'Strategy', 'Video Production', 'RPG']
+
+all_genres = ['Racing', 'Indie', 'Action', 'Adventure']
+genre_counts = {genre: {'count': 0, 'price': 0} for genre in all_genres}
+
+print(genre_counts)
