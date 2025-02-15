@@ -13,14 +13,14 @@ def plotly_settings():
     price_values = [item[1]['price'] for item in sorted_items]
 
     fig = go.Figure(data=[
-        go.Bar(y=categories, x=count_values, name='Количество игр, $', marker=dict(color='blue'), orientation='h'),
-        go.Bar(y=categories, x=price_values, name='Общий доход', marker=dict(color='red'), orientation='h')
+        go.Bar(y=categories, x=count_values, name='Sum of games by tags', marker=dict(color='#7a73c0'), orientation='h'),
+        go.Bar(y=categories, x=price_values, name='Total revenue, $', marker=dict(color='#3ebe9d'), orientation='h')
     ])
 
     fig.update_layout(
-        title="Количество игр и цены по жанрам. Общий доход по жанрам",
-        yaxis_title="Популярные тэги",
-        xaxis_title="Значения",
+        title="Popular Steam Tags. Total revenue by tags",
+        yaxis_title="Popular Tags",
+        xaxis_title="Values",
         barmode='group',
         showlegend=True,
         template="plotly_dark"
