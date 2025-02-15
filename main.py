@@ -6,7 +6,7 @@ import time
 
 steam_games_df = pd.read_csv('data_frames/merged_data.csv')
 
-# Получение множества уникальных жанров
+# Получение множества уникальных тэгов (жанров)
 def unique_genres():
     genres_set = set()
 
