@@ -18,8 +18,8 @@ def plotly_settings():
     ])
 
     fig.update_layout(
-        title="Количество и цены по жанрам. Общий доход по жанрам",
-        yaxis_title="Жанры",
+        title="Количество игр и цены по жанрам. Общий доход по жанрам",
+        yaxis_title="Популярные тэги",
         xaxis_title="Значения",
         barmode='group',
         showlegend=True,
