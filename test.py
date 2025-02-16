@@ -33,7 +33,17 @@ import ast
 # print(genre_counts)
 
 
-steam_games_df = pd.read_csv('data_frames/merged_data.csv')
-for index, row in steam_games_df.iterrows():
-    print(row['Price(USD)'])
-    print(type(row['Price(USD)']))
+# steam_games_df = pd.read_csv('data_frames/merged_data.csv')
+# for index, row in steam_games_df.iterrows():
+#     print(row['Price(USD)'])
+#     print(type(row['Price(USD)']))
+    
+    
+# for tag, data in tags_counts.items():
+#     sum_of_tags = data['count'] + 1
+#     total_revenue = round(data['price'], 2)
+#     average_revenue = round(total_revenue/sum_of_tags, 2)
+#     # print(f"Количество игр по тэгу {tag}: {sum_of_tags}")
+#     # print(f"Общая стоимость игр по тэгу {tag}: {total_revenue}$")
+#     # print(f"Средняя выручка по тэгу {tag}: {average_revenue}")
+#     # print("-" * 50)

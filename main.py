@@ -30,15 +30,6 @@ def main():
                     tags_counts[tag]['price'] += float(row['price(USD)'].replace("$", "").replace("Free", "0"))
                 except:
                     print(index, row['Title'], row['price(USD)'])
-
-    for tag, data in tags_counts.items():
-        sum_of_tags = data['count'] + 1
-        total_revenue = round(data['price'], 2)
-        average_revenue = round(total_revenue/sum_of_tags, 2)
-        # print(f"Количество игр по тэгу {tag}: {sum_of_tags}")
-        # print(f"Общая стоимость игр по тэгу {tag}: {total_revenue}$")
-        # print(f"Средняя выручка по тэгу {tag}: {average_revenue}")
-        # print("-" * 50)
     
     config.TAGS_DICT = tags_counts
 
@@ -47,7 +38,7 @@ def my_tags_data():
     new_data = []
     for tag, data in config.TAGS_DICT.items():
         tag_name = tag
-        sum_of_tags = data['count'] + 1
+        sum_of_tags = data['count']
         total_revenue = round(data['price'], 2)
         average_revenue = round(total_revenue/sum_of_tags, 2)
         
@@ -58,10 +49,8 @@ def my_tags_data():
         'average revenue' : average_revenue
         })
     
-    my_tags_data = pd.DataFrame(new_data)
-    my_tags_data.to_csv('data_frames/my_tags_data.csv', index=False)
-
-    print("Данные успешно записаны в my_tags_data.csv")
+    tags_data = pd.DataFrame(new_data)
+    tags_data.to_csv('data_frames/my_tags_data.csv', index=False)
         
 
 if __name__ == "__main__":
