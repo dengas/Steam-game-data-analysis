@@ -1,0 +1,161 @@
+name of tag,sum of tags,total revenue,average revenue
+Local Multiplayer,3119,18486.73,5.93
+Tower Defense,1628,10416.77,6.4
+MOBA,270,4093.42,15.16
+Pixel Graphics,11635,45686.05,3.93
+Building,3725,27206.71,7.3
+Tactical,3666,21102.19,5.76
+Cozy,304,1166.98,3.84
+Science,741,3473.98,4.69
+Adventure,30757,166758.93,5.42
+Action-Adventure,8277,45051.72,5.44
+4 Player Local,1438,7593.62,5.28
+PvE,4241,19013.17,4.48
+Detective,1650,9171.74,5.56
+Military,1813,11689.43,6.45
+PvP,4935,26706.32,5.41
+Party-Based RPG,1105,7668.68,6.94
+Robots,1746,8346.6,4.78
+Philosophical,770,3706.85,4.81
+Spaceships,142,749.7,5.28
+Farming,152,951.12,6.26
+Pirates,439,3103.78,7.07
+Anime,6278,42144.99,6.71
+Co-op Campaign,511,3026.23,5.92
+RPG,13182,83405.61,6.33
+Funny,8382,38868.59,4.64
+Combat Racing,582,5027.31,8.64
+Driving,1521,10630.41,6.99
+Software,208,884.6,4.25
+Lovecraftian,707,3131.84,4.43
+Automobile Sim,1021,9517.27,9.32
+Online Co-Op,2869,17540.13,6.11
+Party Game,349,1482.87,4.25
+Open World Survival Craft,564,3395.57,6.02
+Farming Sim,682,5544.49,8.13
+Gun Customization,642,2639.02,4.11
+Indie,42594,169653.86,3.98
+Visual Novel,4339,22899.26,5.28
+Puzzle,13448,60431.84,4.49
+Old School,3769,14735.3,3.91
+Sports,3586,34732.27,9.69
+Crime,915,4389.95,4.8
+Cinematic,1690,9189.53,5.44
+Third-Person Shooter,1828,9603.5,5.25
+Multiplayer,9503,58826.58,6.19
+Strategy RPG,1464,9941.95,6.79
+Looter Shooter,483,3978.17,8.24
+Medieval,3136,13732.84,4.38
+Minimalist,4778,12650.16,2.65
+War,2293,15373.65,6.7
+Character Action Game,615,3312.82,5.39
+Runner,1327,4723.95,3.56
+Tactical RPG,1294,9570.19,7.4
+Grid-Based Movement,1100,3932.91,3.58
+Dark Fantasy,2694,13807.67,5.13
+3D Vision,571,5854.98,10.25
+Board Game,1662,14003.36,8.43
+Co-op,4669,32364.73,6.93
+Hacking,397,1864.97,4.7
+Fighting,1096,7859.48,7.17
+Roguelike,3795,19545.31,5.15
+Magic,3627,16509.16,4.55
+3D,14846,75750.01,5.1
+Horror,7303,33319.28,4.56
+Battle Royale,606,7566.5,12.49
+Souls-like,1136,6691.06,5.89
+Survival Horror,2819,13696.41,4.86
+RPGMaker,1239,4513.11,3.64
+Card Game,1782,11941.26,6.7
+Zombies,2361,13674.48,5.79
+Hidden Object,3204,25928.06,8.09
+Animation & Modeling,112,3223.15,28.78
+Physics,4916,26450.0,5.38
+Political Sim,359,3241.53,9.03
+Arena Shooter,1648,7097.71,4.31
+Short,1692,4993.64,2.95
+Cartoon,2965,11044.15,3.72
+Romance,1807,10632.47,5.88
+Trading Card Game,355,1673.83,4.72
+Hunting,415,3182.62,7.67
+Retro,7864,30736.43,3.91
+First-Person,9927,53174.14,5.36
+Logic,3419,12454.73,3.64
+Addictive,399,1947.21,4.88
+Action Roguelike,2745,17516.9,6.38
+Cyberpunk,1802,8587.73,4.77
+Story Rich,11096,66027.64,5.95
+Capitalism,599,2414.9,4.03
+Fantasy,10125,48837.69,4.82
+Aliens,1738,7643.25,4.4
+Escape Room,329,1682.63,5.11
+Drama,2198,10230.07,4.65
+Simulation,15062,102008.52,6.77
+Psychological Horror,4204,18406.69,4.38
+Colony Sim,738,11183.62,15.15
+Historical,2163,14969.39,6.92
+Life Sim,1628,9064.07,5.57
+Assassin,332,1776.85,5.35
+Roguelite,3539,17612.65,4.98
+Traditional Roguelike,242,1005.03,4.15
+eSports,720,6205.81,8.62
+Survival,5771,28455.57,4.93
+Family Friendly,7686,36311.05,4.72
+MMORPG,513,2244.37,4.37
+Massively Multiplayer,1692,5820.69,3.44
+Job Simulator,54,437.33,8.1
+Choices Matter,4994,24802.33,4.97
+Space Sim,853,4867.58,5.71
+Violent,4379,24936.25,5.69
+Character Customization,3969,25086.61,6.32
+Parkour,1081,4684.96,4.33
+NSFW,503,3632.27,7.22
+2D,22104,91039.99,4.12
+Action,33694,176320.8,5.23
+Third Person,6538,39058.2,5.97
+Cooking,514,2476.42,4.82
+God Game,486,5444.49,11.2
+Stealth,2069,12048.15,5.82
+Economy,1578,11359.64,7.2
+Post-apocalyptic,2379,12658.41,5.32
+Design & Illustration,376,2030.42,5.4
+Dating Sim,1335,9034.31,6.77
+Action RPG,3698,30606.51,8.28
+Relaxing,7280,26037.75,3.58
+Atmospheric,14384,74602.78,5.19
+Free to Play,4724,3988.84,0.84
+Thriller,1293,5285.63,4.09
+Racing,2997,26029.65,8.69
+Transportation,327,2185.06,6.68
+Difficult,5763,32344.2,5.61
+Dungeon Crawler,2481,19200.59,7.74
+Fishing,388,1946.44,5.02
+Boxing,176,2520.78,14.32
+Casual,30458,135088.55,4.44
+Politics,339,1911.83,5.64
+Realistic,4893,30379.82,6.21
+Party,293,1472.78,5.03
+Voxel,599,2655.8,4.43
+Mining,457,1858.31,4.07
+Gambling,213,957.75,4.5
+Psychological,1352,6110.6,4.52
+Local Co-Op,2330,14904.5,6.4
+LGBTQ+,1266,7416.38,5.86
+Classic,1340,9682.22,7.23
+Arcade,9816,47390.86,4.83
+Crafting,3085,20336.35,6.59
+VR,5090,28405.14,5.58
+Cute,10177,52610.11,5.17
+Steampunk,521,2865.42,5.5
+Remake,390,3772.39,9.67
+Vikings,89,567.51,6.38
+City Builder,1449,16070.81,11.09
+Base Building,2361,12888.17,5.46
+Demons,1449,6408.2,4.42
+Sniper,193,818.78,4.24
+Clicker,1611,8585.01,5.33
+Strategy,15256,95202.65,6.24
+Singleplayer,41124,203689.43,4.95
+Team-Based,1276,5645.95,4.42
+Emotional,2273,9670.45,4.25
+Diplomacy,259,1807.74,6.98

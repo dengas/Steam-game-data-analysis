@@ -4,7 +4,7 @@ import config
 
 
 def plotly_settings():
-    data = config.GENRES_DICT
+    data = config.TAGS_DICT
 
     sorted_items = sorted(data.items(), key=lambda x: x[1]['price'])
 
