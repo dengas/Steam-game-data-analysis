@@ -23,7 +23,7 @@
 
 <div><br>
 <h2> Фотографии графиков </h2>
-    <p> Можно сделать вывод, что тэг Singleplayer имеет самый большой доход </p>
+    <p> Можно сделать вывод, что тэг Singleplayer имеет самый наибольший доход </p>
     <div align="center">
         <img src="images/photo1.png" width="1500"><br><br>
         <img src="images/photo2.png" width="1500"><br><br>
