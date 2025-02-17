@@ -58,8 +58,8 @@ if __name__ == "__main__":
     
     # unique_tags()
     main()
-    # plotly_settings()
-    my_tags_data()
+    plotly_settings()
+    # my_tags_data()
     
     end_time = time.time()
     execution_time = end_time - start_time
